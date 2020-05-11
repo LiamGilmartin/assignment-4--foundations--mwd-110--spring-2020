@@ -1,3 +1,8 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 body {
   color: black;
   background-color: beige;
@@ -9,26 +14,39 @@ body {
 h1{
   padding-top: 10px;
   text-align: center;
-  font-size: 4rem;
-  background-color: white;
+  font-size: 6rem;
+  background-color: beige;
   color: brown;
 }
 h2{
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h3{
-  padding-top: 30px;
-  font-size: 2rem;
-  background-color: white;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 5rem;
+  background-color: beige;
   color: brown;
 }
 h4{
   padding-top: 20px;
-  font-size: 2rem;
-  background-color: white;
+  font-size: 4rem;
+  background-color: beige;
   color: brown;
 }
 p{
-  font-size: 1.5rem;
+  font-size: 3rem;
+}
+img{
+  display: block;
+  float: right;
+  margin: 10px;
+  width: 500px;
+}
+div{
+  text-align: left;
+  padding: 20px;
+  width: 700px;
 }
