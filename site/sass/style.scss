@@ -1,51 +1,54 @@
+$primary-color: beige;
+$secondary-color: brown;
+$text-size: 1rem;
+
 main {
   display: flex;
   flex-wrap: wrap;
-  align-items: center; }
-
+  align-items: center;
+}
 body {
   color: black;
-  background-color: beige;
+  background-color: $primary-color;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 20px;
-  position: relative; }
-
-h1 {
+  position: relative;
+}
+h1{
   padding-top: 10px;
   text-align: center;
-  font-size: 6rem;
-  background-color: beige;
-  color: brown; }
-
-h2 {
+  font-size: $text-size*6;
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+h2{
   text-align: center;
-  font-size: 3rem; }
-
-h3 {
+  font-size: $text-size*3;
+}
+h3{
   padding-left: 20px;
   padding-top: 50px;
-  font-size: 4rem;
-  background-color: beige;
-  color: brown; }
-
-h4 {
+  font-size: $text-size*4;
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+h4{
   padding-top: 20px;
-  font-size: 4rem;
-  background-color: beige;
-  color: brown; }
-
-p {
-  font-size: 3rem; }
-
-img {
+  font-size: $text-size*4;
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+p{
+  font-size: $text-size*3;
+}
+img{
   display: block;
   float: right;
   margin: 10px;
-  width: 500px; }
-
-div {
+  width: 500px;
+}
+div{
   text-align: left;
   padding: 20px;
-  width: 700px; }
-
-/*# sourceMappingURL=style.css.map */
+  width: 700px;
+}
